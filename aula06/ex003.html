@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa</title>
+    <style>
+        body{
+            background-color: rgb(97, 97, 223);
+            font: 2em arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <p>estou livre da maldição</p>
+    <script>
+
+        /*var  n1 = Number.parseFloat(window.prompt('digite um número'))
+        var n2 = Number.parseFloat(window.prompt('digite outro número'))
+        var s = n1 + n2*/
+    
+        var n1 = Number(window.prompt('digite um numero'))
+        var n2 =  Number(prompt('digite outro numero'))
+        s = n1 + n2
+
+        /*window.alert('o resultado da soma é ' + s)*/
+
+        window.alert(`o resultado da soma de ${n1} + ${n2} é igual a ${s}`)
+
+
+        /* converter pra string é s.tostring() ou string(s)*/
+    </script>
+</body>
+</html>
