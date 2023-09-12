@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>To Do Javascript</title>
+</head>
+<body>
+    <Div id="tasks">
+
+        <div id="header">
+
+            <h2 id="h2">Salve sua proxima tarefa:</h2>
+
+            <form action="" id="add-task-form">
+
+                <input type="text" id="task-title" placeholder="o que você vai fazer?">
+
+                <button id="add-btn" type="submit">
+
+                    <ion-icon name="add-outline"></ion-icon>
+
+                </button>
+            </form>
+        </div>
+
+        <div id="tasks-list_container">
+
+            <h2>Estas são as suas tarefas</h2>
+
+            <ul id="task-list">
+
+                <li class="task-box template hide">
+
+                <span class="task-title">teste</span>
+
+                <ion-icon name="checkmark-outline" class="done-btn"></ion-icon>
+
+                <ion-icon name="close-outline" class="remove-btn"></ion-icon>
+                </li>
+
+
+            </ul>
+        </div>
+
+    </Div>
+
+
+    <script src="js/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js">
+    </script>
+
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
