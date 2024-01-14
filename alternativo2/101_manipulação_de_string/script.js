@@ -1,0 +1,10 @@
+let nome = new String('Amando')
+let canal = new String('Youtube')
+console.log(nome)
+console.log(typeof(nome))
+
+console.log(nome.charAt(3))
+console.log(nome.charCodeAt(0))
+console.log(nome.concat(canal))
+console.log(nome.indexOf('n'))
+console.log(nome.lastIndexOf('a'))
