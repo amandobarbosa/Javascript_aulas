@@ -1,0 +1,32 @@
+.btn_mostrarcxmsg{
+    background-color: pink;
+}
+#divmsg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(255, 192, 203, 0.459);
+}
+
+#areacxmsg{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 300px;
+}
+#titulocxmsg{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    background-color: aqua;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px 5px 0px 0px;
+}
